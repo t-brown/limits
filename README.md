@@ -1,7 +1,7 @@
 Limits
 ======
 
-`limits` is a small library that allows a FORTRAN program query `getrlimit()`.
+`limits` is a small library that allows a FORTRAN program query to `getrlimit()`.
 
 Prerequisites
 -------------
