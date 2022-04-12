@@ -22,6 +22,7 @@ export I_MPI_DEBUG=4
 export I_MPI_FABRICS=ofi
 export I_MPI_HYDRA_BRANCH_COUNT=0
 export I_MPI_OFI_PROVIDER=efa
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD
 export SLURM_EXPORT_ENV=ALL
 
 mpiexec.hydra ./test
