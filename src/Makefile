@@ -1,8 +1,9 @@
 #
-#
 
-CFLAGS  += -fPIC
-FCFLAGS += -fPIC
+CC = mpicc
+CFLAGS  = -fPIC -DHAVE_MPI
+FC = mpifort
+FCFLAGS = -fPIC -DHAVE_MPI
 
 .PHONY:
 .PHONY: all clean install
